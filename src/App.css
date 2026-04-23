@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F3F7F0;
+  color: #1e1e1e;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar (desktop) */
+.sidebar {
+  width: 260px;
+  background-color: #861028;
+  color: white;
+  padding: 2rem 1rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar nav ul {
+  list-style: none;
+}
+
+.sidebar nav li {
+  margin: 1.5rem 0;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.sidebar nav a:hover {
+  background-color: #BA8837;
+}
+
+.sidebar nav a.active {
+  background-color: #BA8837;
+  font-weight: bold;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #FF1A25;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.back-to-top:hover {
+  transform: scale(1.05);
+}
+
+/* Next button (inline) */
+.next-button {
+  display: inline-block;
+  background-color: #BA8837;
+  color: #f1f1f1;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.next-button:hover {
+  background-color: #FF914D;
+}
+
+/* Utility */
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page h1 {
+  color: #861028;
+  margin-bottom: 1rem;  /*1rem??? anyways */
+}
+
+.page p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+
+

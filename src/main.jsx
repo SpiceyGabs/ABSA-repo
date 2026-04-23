@@ -10,6 +10,10 @@ import './pages/Simlab.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
     <App />
+
+    
   </StrictMode>,
 )
+
