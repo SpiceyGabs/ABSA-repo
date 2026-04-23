@@ -119,18 +119,25 @@ export default function MoneySnapshot() {
       <div style={{ display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap' }}>
         {/* Circular graph placeholder */}
         <div style={{
-          width: '150px', height: '150px', borderRadius: '50%',
+          width: '150px', 
+          height: '150px', 
+          borderRadius: '50%',
           background: `conic-gradient(#BA8837 0deg ${(currentSavings / (monthlySavingsGoal * 12)) * 360}deg, #ddd ${(currentSavings / (monthlySavingsGoal * 12)) * 360}deg)`,
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          fontWeight: 'bold', fontSize: '1.2rem'
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'center',
+          fontWeight: 'bold', 
+          fontSize: '1.2rem',
+          
         }}>
           {Math.round((currentSavings / (monthlySavingsGoal * 12)) * 100)}%
         </div>
         <div>
+          
           <p><strong>Monthly net salary:</strong> R{salary.toLocaleString()}</p>
-          <p><strong>Selected track:</strong> {selectedTrack}</p>
-          <p><strong>Suggested monthly saving:</strong> R{monthlySavingsGoal.toLocaleString()}</p>
-          <p><strong>Current savings:</strong> R{currentSavings.toLocaleString()}</p>
+        <p><strong>Selected track:</strong> {selectedTrack}</p>
+        <p><strong>Suggested monthly saving:</strong> R{monthlySavingsGoal.toLocaleString()}</p>
+        <p><strong>Current savings:</strong> R{currentSavings.toLocaleString()}</p>
         </div>
       </div>
       <NextButton to="/tracks" label="Explore your Strategy Track →" />
