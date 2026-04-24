@@ -1,18 +1,12 @@
-function Simlab() {
-    return (
+
+
+function StrategyTracks() {
+  return (
     <div className="page">
-      <h1>Simulation Lab</h1>
-      <p>
-        Compare real‑life financial decisions. 
-        Start with our Rent vs Buy calculator for Johannesburg.
-        More simulations (car finance, investment comparison) will be added.
-      </p>
-
-      {/* Rent vs Buy stuff will go here now now I promise! */}
-
-
+      <h1>Strategy Tracks</h1>
+      <p>Choose your financial race strategy...</p>
     </div>
   );
 }
 
-export default Simlab;
+export default StrategyTracks

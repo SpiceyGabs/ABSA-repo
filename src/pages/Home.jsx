@@ -1,4 +1,4 @@
-import NextButton from '../components/nextButton.jsx';
+import NextButton from '../components/NextButton.jsx';
 
 function Home() {
   return (

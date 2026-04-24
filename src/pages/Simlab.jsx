@@ -8,10 +8,17 @@ function Simlab() {
         More simulations (car finance, investment comparison) will be added.
       </p>
 
+  <p className="page">
+      <h1>Simulation Lab</h1>
+      <p>Rent vs Buy calculator </p>
+  
+   </p> 
       {/* Rent vs Buy stuff will go here now now I promise! */}
+  
+  
+  </div>
 
-
-    </div>
+  
   );
 }
 

@@ -1,28 +1,22 @@
-// src/components/BackToTop.jsx
-import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
-function BackToTop() {
-     const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const toggleVisibility = () => {
-      setVisible(window.scrollY > 300);
-    };
-    window.addEventListener('scroll', toggleVisibility);
-    return () => window.removeEventListener('scroll', toggleVisibility);
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  if (!visible) return null;
-
+function Sidebar() {
   return (
-    <button className="back-to-top" onClick={scrollToTop} aria-label="Back to top">
-      ↑
-    </button>
+    <aside className="sidebar">
+      <nav>
+        <ul>
+          <li><NavLink to="/"> Home</NavLink></li>
+          <li><NavLink to="/snapshot">💰Money Snapshot</NavLink></li>
+          <li><NavLink to="/strategyTracks">🏆Strategy Tracks</NavLink></li>
+          <li><NavLink to="/simulationLab">🧪Simulation Lab</NavLink></li>
+          <li><NavLink to="/learn">📘Learn +</NavLink></li>
+        </ul>
+      </nav>
+    </aside>
   );
 }
 
-export default BackToTop;
+export default Sidebar;
+
+
+

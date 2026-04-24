@@ -11,12 +11,12 @@ body {
   color: #1e1e1e;
 }
 
-.app-layout {
+.appLayout {
   display: flex;
   min-height: 100vh;
 }
 
-/* Sidebar (desktop) */
+/* Sidebar */
 .sidebar {
   width: 260px;
   background-color: #861028;
@@ -58,14 +58,14 @@ body {
 }
 
 /* Main content */
-.main-content {
+.mainContent {
   flex: 1;
   padding: 2rem;
   position: relative;
 }
 
 /* Back to top button */
-.back-to-top {
+.backToTop {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
@@ -81,12 +81,12 @@ body {
   transition: transform 0.2s;
 }
 
-.back-to-top:hover {
+.backToTop:hover {
   transform: scale(1.05);
 }
 
-/* Next button (inline) */
-.next-button {
+/* Next button (inline styling)  */
+.nextButton {
   display: inline-block;
   background-color: #BA8837;
   color: #f1f1f1;
@@ -98,7 +98,7 @@ body {
   transition: background 0.2s;
 }
 
-.next-button:hover {
+.nextButton:hover {
   background-color: #FF914D;
 }
 
