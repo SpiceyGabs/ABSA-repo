@@ -1,4 +1,5 @@
-import NextButton from '../components/NextButton.jsx';
+import NextButton from './components/NextButton.jsx';
+import './App.css';
 
 function Home() {
   return (
