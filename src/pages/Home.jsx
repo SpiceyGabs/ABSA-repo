@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 import NextButton from './components/NextButton.jsx';
 import './App.css';
+import './index.css';
 
 function Home() {
   return (
-    <div className="page">
+    <div className="home">
       <h1>ABSA NextGen Wealth Studio</h1>
 
       <p>

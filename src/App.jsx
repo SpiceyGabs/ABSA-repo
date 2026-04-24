@@ -10,6 +10,8 @@ import BackToTop from './components/BacktoTop';  //fixed
 function App() {
 
   return (
+
+    <BrowserRouter>
      <div className="appLayout">
        <Sidebar />
 
@@ -22,9 +24,10 @@ function App() {
            <Route path="/learn" element={<Learn />} />
          </Routes>
         <BackToTop />
+
       </main>
      </div>
-     
+    </BrowserRouter>
   );
 }
 
