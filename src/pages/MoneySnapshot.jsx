@@ -2,6 +2,8 @@
 
 
 import React from 'react';
+
+function MoneySnapshot() {
   return (
     <div className="page">
       <h1>Money Snapshot</h1>
@@ -19,5 +21,6 @@ import React from 'react';
         <p>     Use this information to make informed decisions and adjust your strategy as needed. Remember, the journey to financial independence is a marathon, not a sprint! </p>
     </div>
     );
+  }
 
 export default MoneySnapshot;

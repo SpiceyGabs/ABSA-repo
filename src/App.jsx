@@ -8,13 +8,10 @@ import Learn from './pages/Learn';
 import BackToTop from './components/BacktoTop';  //fixed
 
 function App() {
-
   return (
-
     <BrowserRouter>
      <div className="appLayout">
        <Sidebar />
-
        <main className="mainContent">
         <Routes>
            <Route path="/" element={<Home />} />

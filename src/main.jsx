@@ -6,8 +6,6 @@ import App from './App';
 import './index.css';
 import './App.css';
 
-
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <BrowserRouter>

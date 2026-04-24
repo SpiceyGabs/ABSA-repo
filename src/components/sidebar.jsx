@@ -4,7 +4,6 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <h2 className="logo">ABSA NextGen Studio </h2>
-
       <nav>
         <ul>
           <li><NavLink to="/">🏠Home</NavLink></li>

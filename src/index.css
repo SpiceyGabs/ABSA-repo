@@ -1,6 +1,6 @@
 :root {
   --text: #6b6375;
-  --text-h: #08060d;
+  /* --text-h: #08060d;
   --bg: #fff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
@@ -13,7 +13,7 @@
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --mono: ui-monospace, Consolas, monospace; */
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -26,7 +26,9 @@
   -moz-osx-font-smoothing: grayscale;
 
   @media (max-width: 1024px) {
+   :root{
     font-size: 16px;
+  }
   }
 }
 
