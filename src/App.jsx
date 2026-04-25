@@ -9,7 +9,7 @@ import BackToTop from './components/BacktoTop';  //fixed
 
 function App() {
   return (
-    <BrowserRouter>
+    
      <div className="appLayout">
        <Sidebar />
        <main className="mainContent">
@@ -24,7 +24,7 @@ function App() {
 
       </main>
      </div>
-    </BrowserRouter>
+   
   );
 }
 
