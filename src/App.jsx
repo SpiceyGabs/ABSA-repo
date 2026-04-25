@@ -7,10 +7,17 @@ import SimLab from './pages/SimLab';
 import Learn from './pages/Learn';
 import BackToTop from './components/BacktoTop';  //fixed
 
+function Test() {
+  return (
+    <h1>Test 1</h1>
+  );
+}
+
 function App() {
   return (
     
      <div className="appLayout">
+      <h1>ABSA NextGen Wealth Studio</h1>
        <Sidebar />
        <main className="mainContent">
         <Routes>

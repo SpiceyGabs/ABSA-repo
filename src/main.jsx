@@ -10,7 +10,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
      <BrowserRouter>
       <UserProvider>
+        <>
         <App />
+        <h2>What is going on rn?</h2>
+        </>
       </UserProvider>
     </BrowserRouter>
   </StrictMode>,
